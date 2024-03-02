@@ -1,9 +1,9 @@
-/*
-
-Author
-Name    : Akmal Nuur Fauzan
-NIM     : 20220040060
-
+/**
+*
+* @Author
+* @Name    : Akmal Nuur Fauzan
+* @NIM     : 20220040060
+*
 */
 public class Handphone{
     String jenis_hp;
@@ -22,10 +22,10 @@ public class Handphone{
         return tahun_pembuatan;
     }
 
-    public void static main(String[] args){
+    public static void main(String[] args){
         Handphone hp = new Handphone();
         hp.setDataHP("VIVO", 2023);
         System.out.println(hp.getJenisHP());
-        System.out.println(hp.tahun_pembuatan());
+        System.out.println(hp.getTahunPembuatan());
     }
 }
