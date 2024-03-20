@@ -1,6 +1,6 @@
 /**
  *
- * @author akmal
+ * @author Akmal Nuur Fauzan (20220040060)
  */
 public class Game{
     protected String Game_Title;
